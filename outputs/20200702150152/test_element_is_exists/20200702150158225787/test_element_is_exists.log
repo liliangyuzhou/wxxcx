@@ -1,0 +1,77 @@
+INFO  2020-07-02 15:01:58,226 app.py     _relaunch       233 [32m[32m[32mReLaunch: /pages/Index/Index[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,226 connection.py send            98  [35m[35m[35mSEND > {"id":"950d9c64-d1d9-4d46-aa3f-35c8b27a4f4e","method":"App.callWxMethod","params":{"method":"reLaunch","args":[{"url":"/pages/Index/Index"}]}}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,256 connection.py _on_message     134 [35m[35m[35mRECV < {"id":"950d9c64-d1d9-4d46-aa3f-35c8b27a4f4e","result":{"result":{"errMsg":"reLaunch:ok"}}}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,526 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,527 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,527 connection.py send            98  [35m[35m[35mSEND > {"id":"94fce8e1-65e1-4abc-904c-62ef17bb12e0","method":"App.getCurrentPage","params":{}}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,528 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,528 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,529 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,529 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,530 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,530 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,530 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,531 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,531 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,531 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,532 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,532 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,532 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,533 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,533 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,534 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,534 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,534 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,534 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,535 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,535 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,535 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,535 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,535 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,536 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,536 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,536 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,536 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,537 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,537 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,537 connection.py _on_message     134 [35m[35m[35mRECV < {"method":"App.bindingCalled","params":{"name":"onAppRouteDone","args":[{"webviewId":142,"path":"pages/Index/Index","query":{},"openType":"reLaunch"}]}}[0m[0m[0m
+INFO  2020-07-02 15:01:58,537 app.py     _on_route_changed 136 [32m[32m[32mRoute changed, {'name': 'onAppRouteDone', 'args': [{'webviewId': 142, 'path': 'pages/Index/Index', 'query': {}, 'openType': 'reLaunch'}]}[0m[0m[0m
+DEBUG 2020-07-02 15:01:58,553 connection.py _on_message     134 [35m[35m[35mRECV < {"id":"94fce8e1-65e1-4abc-904c-62ef17bb12e0","result":{"pageId":142,"path":"pages/Index/Index","query":{}}}[0m[0m[0m
+DEBUG 2020-07-02 15:01:59,555 connection.py send            98  [35m[35m[35mSEND > {"id":"36da9e7f-30bd-4033-a21e-df2e05dbc05d","method":"App.captureScreenshot","params":{}}[0m[0m[0m
+DEBUG 2020-07-02 15:01:59,558 connection.py _on_message     134 [35m[35m[35mRECV < {"id":"36da9e7f-30bd-4033-a21e-df2e05dbc05d","error":{"message":"appservice App.captureScreenshot unimplemented"}}[0m[0m[0m
+ERROR 2020-07-02 15:02:06,572 app.py     screen_shot     45  appservice App.captureScreenshot unimplemented
+WARNI 2020-07-02 15:02:06,573 minitest.py capture         120 [33m[33m[33m/Users/zaihui-105/PycharmProjects/test_wx_minium/outputs/20200702150152/test_element_is_exists/20200702150158225787/images/150159554143.png not exists[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,575 connection.py send            98  [35m[35m[35mSEND > {"id":"8b7d6586-77d6-4bb7-aefb-b8d25afc4ac9","method":"App.getCurrentPage","params":{}}[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,577 connection.py _on_message     134 [35m[35m[35mRECV < {"id":"8b7d6586-77d6-4bb7-aefb-b8d25afc4ac9","result":{"pageId":142,"path":"pages/Index/Index","query":{}}}[0m[0m[0m
+INFO  2020-07-02 15:02:06,578 app.py     redirect_to     169 [32m[32m[32mRedirectTo: /pages/Mine/Mine[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,578 connection.py send            98  [35m[35m[35mSEND > {"id":"ba88d804-931e-442c-a887-e8a6ec6ae169","method":"App.callWxMethod","params":{"method":"redirectTo","args":[{"url":"/pages/Mine/Mine"}]}}[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,589 connection.py _on_message     134 [35m[35m[35mRECV < {"id":"ba88d804-931e-442c-a887-e8a6ec6ae169","error":{"message":"can not redirectTo a tabbar page"}}[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,592 connection.py send            98  [35m[35m[35mSEND > {"id":"cd418873-1c06-4bc8-a043-7302e4cd6db1","method":"App.captureScreenshot","params":{}}[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,594 connection.py _on_message     134 [35m[35m[35mRECV < {"id":"cd418873-1c06-4bc8-a043-7302e4cd6db1","error":{"message":"appservice App.captureScreenshot unimplemented"}}[0m[0m[0m
+ERROR 2020-07-02 15:02:06,597 app.py     screen_shot     45  appservice App.captureScreenshot unimplemented
+WARNI 2020-07-02 15:02:06,597 minitest.py capture         120 [33m[33m[33m/Users/zaihui-105/PycharmProjects/test_wx_minium/outputs/20200702150152/test_element_is_exists/20200702150158225787/images/150206592753.png not exists[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,597 connection.py send            98  [35m[35m[35mSEND > {"id":"d8b24691-1a7c-4cea-a735-684e00eb22d5","method":"App.getCurrentPage","params":{}}[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,599 connection.py _on_message     134 [35m[35m[35mRECV < {"id":"d8b24691-1a7c-4cea-a735-684e00eb22d5","result":{"pageId":142,"path":"pages/Index/Index","query":{}}}[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,599 connection.py send            98  [35m[35m[35mSEND > {"id":"2c6e939c-3493-42f1-9e63-7be2ca77245f","method":"Page.getData","params":{"pageId":142}}[0m[0m[0m
+DEBUG 2020-07-02 15:02:06,884 connection.py _on_message     132 [35m[35m[35mRECV < {"id":"2c6e939c-3493-42f1-9e63-7be2ca77245f","result":{"data":{"merchandiseStore":{"merchandiseGroup":[{"id":495,"uid":"5764d13965674ad3ad887187ba2f1fce","title":"测试专营","description":"这是一个测试组","sort":0,"businessGroupUid":"","merchandiseCount":64,"onlineMerchandiseCount":64,"createdAt":"2020-06-23T11:10","updatedAt":"2020-06-23T11:10","deletedAt":"1970-01-01T00:00","loading":false},{"id":494,"uid":"51c9fdd59e7c4c42a986103630167711","title":"接口新建商品组","description":"接口","sort":0,"businessGroupUid":"","merch...[0m[0m[0m
+ERROR 2020-07-02 15:02:06,899 assertbase.py _teardown_collect 124 [31m[31m[31massert failed[0m[0m[0m
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 628, in run
+    testMethod()
+  File "/Users/zaihui-105/PycharmProjects/test_wx_minium/minium_test.py", line 41, in test_element_is_exists
+    self.app.redirect_to("/pages/Mine/Mine")
+  File "/Users/zaihui-105/PycharmProjects/test_wx_minium/venv/lib/python3.7/site-packages/minium/miniprogram/base_driver/minium_log.py", line 70, in wrapper
+    result=func(*args,**kwargs)
+  File "/Users/zaihui-105/PycharmProjects/test_wx_minium/venv/lib/python3.7/site-packages/minium/miniprogram/base_driver/app.py", line 170, in redirect_to
+    page=self._change_route("redirectTo",url,wait)
+  File "/Users/zaihui-105/PycharmProjects/test_wx_minium/venv/lib/python3.7/site-packages/minium/miniprogram/base_driver/app.py", line 122, in _change_route
+    self._call_wx_method(open_type,[{"url":path}])
+  File "/Users/zaihui-105/PycharmProjects/test_wx_minium/venv/lib/python3.7/site-packages/minium/miniprogram/base_driver/minium_object.py", line 84, in _call_wx_method
+    return self.connection.send("App.callWxMethod",params)
+  File "/Users/zaihui-105/PycharmProjects/test_wx_minium/venv/lib/python3.7/site-packages/minium/miniprogram/base_driver/connection.py", line 100, in send
+    return self._receive_response(max_timeout)
+  File "/Users/zaihui-105/PycharmProjects/test_wx_minium/venv/lib/python3.7/site-packages/minium/miniprogram/base_driver/connection.py", line 119, in _receive_response
+    raise MiniAppError(err_msg)
+minium.framework.exception.MiniAppError: can not redirectTo a tabbar page
